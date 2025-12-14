@@ -1,4 +1,4 @@
-FROM registry.suse.com/bci/golang:1.17
+FROM golang:1.25.5-bookworm
 
 ARG DAPPER_HOST_ARCH="amd64"
 ENV ARCH=${DAPPER_HOST_ARCH}
